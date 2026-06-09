@@ -1,0 +1,23 @@
+Yog Ayur Bliss Website Deploy Kaise Kare
+
+1) Frontend live link:
+- Netlify Drop open kare
+- frontend folder drag-drop kare
+- turant public link milegi
+
+2) Backend:
+- Render.com par Web Service banaye
+- backend folder upload kare
+- Build command: npm install
+- Start command: npm start
+- MONGO_URI environment variable add kare
+
+3) Database:
+- MongoDB Atlas free cluster banaye
+- connection string ko Render me MONGO_URI me dale
+
+4) API connect:
+- frontend/script.js aur frontend/admin.js me API_URL ko backend live URL se replace kare
+
+Admin password:
+admin123
