@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Admin | Yog Ayur Bliss</title><link rel="stylesheet" href="admin.css"></head>
+<body>
+  <main class="admin">
+    <section class="login" id="loginBox">
+      <h1>Admin Login</h1>
+      <p>Demo password: <b>admin123</b></p>
+      <input id="password" type="password" placeholder="Enter password">
+      <button onclick="login()">Login</button>
+      <p id="loginMsg"></p>
+    </section>
+    <section class="dashboard hidden" id="dashboard">
+      <div class="top"><div><h1>Yog Ayur Bliss Dashboard</h1><p>Booking management panel</p></div><button onclick="loadBookings()">Refresh</button></div>
+      <div id="bookings" class="bookings"></div>
+    </section>
+  </main>
+<script src="admin.js"></script>
+</body>
+</html>
